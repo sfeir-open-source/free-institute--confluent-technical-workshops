@@ -1,0 +1,15 @@
+.vscode
+run.sh
+*terraform*
+.gitconfig
+__pycache__
+revision
+
+**/gcp_sa_key.json
+**/target
+.idea
+*.iml
+payload.txt
+
+
+python/**/config.yml
