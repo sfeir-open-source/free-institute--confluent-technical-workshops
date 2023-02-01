@@ -42,7 +42,7 @@ SELECT * FROM TWEETS_SANITIZED LIMIT 100;
 ```
 
 ## Difference between pull and push queries
-**Pull Queries**: Pull queries are used to retrieve data from a ksqlDB stream or table on demand. it enables you to fetch the current state of a materialized view, a table or a stream. The result of this statement is not persisted in a Kafka topic and is printed out only in the console. They're a great match for request/response flows.
+**Pull Queries**: Pull queries are used to retrieve data from a ksqlDB stream or table on demand. it enables you to fetch the current state of a table or a stream. The result of this statement is not persisted in a Kafka topic and is printed out only in the console. They're a great match for request/response flows.
 
 example:
 ```bash
